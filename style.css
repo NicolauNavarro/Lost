@@ -73,3 +73,6 @@ small{
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
+iframe{
+    width: 120vw;
+}
