@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*
+font-family: 'Holtwood One SC', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+:root{
+    --background: #ffffff;
+    --text: #222222;
+    --black: #1d1d1d;
+    --layer: #e8e8ea;
+    --radius: 15px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text);
+    overflow-x: hidden;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+h1{
+    font-size: 2.027rem;
+}
+h2{
+    font-size: 1.802rem;
+}
+h3{
+    font-size: 1.602rem;
+}
+h4{
+    font-size: 1.424rem;
+}
+h5{
+    font-size: 1.266rem;
+}
+h6{
+    font-size: 1.125rem;
+}
+p{
+    font-size: 1rem;
+}
+small{
+    font-size: 0.889rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.title .slogan h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.title .slogan{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title .slogan h6{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
