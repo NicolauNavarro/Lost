@@ -28,6 +28,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 40px;
+    position: relative;
 }
 h1{
     font-size: 2.027rem;
@@ -83,5 +84,5 @@ iframe{
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #000000;
+    background-color: #d3d3d3;
 }
