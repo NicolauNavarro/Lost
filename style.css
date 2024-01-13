@@ -77,10 +77,9 @@ iframe{
     width: 110vw;
     height: 90%;
 }
-iframe::after{
-    content: '';
+.hey{
     width: 100vw;
-    height: 30vh;
+    height: 22vh;
     position: absolute;
     left: 0;
     bottom: 0;
